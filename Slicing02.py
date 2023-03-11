@@ -6,4 +6,11 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+   
+    a = s[3::-1]
+    s = "maktab"
+    return a
+
+
+
+print(main("maktab"))
